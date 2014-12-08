@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>apfw-parent</artifactId>
+        <groupId>com.example.apfw</groupId>
+        <version>0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example.apfw.online</groupId>
+    <artifactId>apfw-online</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.example.apfw.common</groupId>
+            <artifactId>apfw-common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>jp.terasoluna.fw.web</groupId>
+            <artifactId>terasoluna-thin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>jp.terasoluna.fw</groupId>
+            <artifactId>terasoluna-commons</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>jp.terasoluna.fw</groupId>
+            <artifactId>terasoluna-dao</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>jp.terasoluna.fw</groupId>
+            <artifactId>terasoluna-ibatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+
+    </dependencies>
+</project>
